@@ -3,7 +3,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.mycompany</groupId>
+        <groupId>com.waxapps.ecigland</groupId>
         <artifactId>ecommerce-website</artifactId>
         <version>1.0</version>
     </parent>
@@ -55,7 +55,7 @@
                 <configuration>
                     <style>DETAILED</style>
                     <modules>
-                        <module>com.mycompany.gwt.mycompanyAdmin</module>
+                        <module>com.waxapps.ecigland.gwt.waxappsAdmin</module>
                     </modules>
                     <extraJvmArgs>-XX:MaxPermSize=512M -Xms512M -Xmx1024M</extraJvmArgs>
                     <noServer>true</noServer>
@@ -110,7 +110,7 @@
                         <fileset>
                             <directory>target</directory>
                             <excludes>
-                                <exclude>admin/admin/com.mycompany.gwt.mycompanyAdmin/**</exclude>
+                                <exclude>admin/admin/com.waxapps.ecigland.gwt.waxappsAdmin/**</exclude>
                                 <exclude>gwt-unitCache/**</exclude>
                             </excludes>
                             <followSymlinks>false</followSymlinks>
@@ -245,7 +245,7 @@
             <artifactId>broadleaf-common</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.mycompany</groupId>
+            <groupId>com.waxapps.ecigland</groupId>
             <artifactId>core</artifactId>
         </dependency>
         <dependency>
